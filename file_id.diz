@@ -1,12 +1,12 @@
 ------------------------------------------------------------------
 
 Program name : Exeinfo Pe
-Version      : 0.0.5.9 - 2019  ( 1063 + 85 signatures x64 ) 
-             : Ext_detector - v5.4.8 ( 548 non exe signatures )
-             : external signatures : userdb.txt : 4423
+Version      : 0.0.6.0 - 2020  ( 1066 + 86 signatures x64 ) 
+             : Ext_detector - v5.5.2 ( 552 non exe signatures )
+             : external signatures : userdb.txt : 4425
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
-WWW          : http://www.exeinfo.xn.pl  /   www.exeinfo.pe.hu
+WWW          : http://www.exeinfo.xn.pl 
 Category     : Exe detector / Data detector / Exe Tools
 Description  : Detect packer / protector / compiler / .NET obfuscator
 Register     : Freeware
@@ -23,7 +23,8 @@ Requirements : min. 486, 666MHz
 ------------------------------------------------------------------
 
 
- info : many changes and updates old signatures
+ info : many changes , few visible and updates old signatures 
+        ( malware scan changed to Hybrid-analysis.com )
 
 
 

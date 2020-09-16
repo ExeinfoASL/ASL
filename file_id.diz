@@ -1,9 +1,10 @@
+
 ------------------------------------------------------------------
 
 Program name : Exeinfo Pe
-Version      : 0.0.6.1 II for TEST - 2020  ( 1079 + 93 signatures x64 ) 
-             : Ext_detector - v5.6.2 ( 562 non exe signatures )
-             : external signatures : userdb.txt : 4427
+Version      : 0.0.6.2 Final - 2020  ( 1083 + 97 signatures x64 ) 
+             : Ext_detector - v5.6.7 ( 567 non exe signatures )
+             : external signatures : userdb.txt : 4432
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
 WWW          : http://www.exeinfo.xn.pl  /   www.exeinfo.o7.pl
@@ -23,31 +24,14 @@ Requirements : min. 486, 666MHz
 ------------------------------------------------------------------
 
 
- info : many changes and updates old signatures !
+ info : many GUI changes and updates old signatures !
+        ( added Sort columns , Multiscan 2xClick - User directory , 
+        Support for MediaInfo Lite from K-lite codec pack ... )
+        Added Pre-Scan Button on Sections GUI ! ,
+        This version scan files faster !!!
 
-        included .Eis script :
-        - .JP2 picture ripper ( from .pdf files )
-        - .WebP/Avi Ripper 
-        - .7zip header fixer for tampared archives
-           ( tampared .7z you can send via gmail.com )
 
-new x86 signatures :
 
-1065.[ Board4All patch v1.0.1.5 ] - stub : PureBasic v4-5
-1066.[ Electron installer application - http://electronjs.org ] - stub : C++ v14  ( x64 & x86 ) 
-1067.E language / EPL v4.x (Easy Programming Language) www.dywt.com.cn - CHN - stub : Microsoft Visual C++ v.7.10
-1068.E language / EPL v1 - x.x (Easy Programming Language) www.dywt.com.cn - CHN : partial packed
-1069.Explzh v8.x SFX - http://www.ponsoftware.com/en - stub : Microsoft Visual C++ v.10
-1070.Video Copy Protection 10.20 - www.kakasoft.com ( 2018.12.29 )
-1071.[dUP] diablo2oo2's Universal Patcher 2.26.x [ patch ] - exe stub : WinUpack 0.37-0.39 by Dwing  - ttp://dwing.51.net
-1072.[npak] VMProtect v3.3.4  2003-2020  VMProtect Software - www.vmpsoft.com - stub : .NET
-1073.[pack] VMProtect v3.3.4  2003-2020  VMProtect Software - www.vmpsoft.com - stub : .NET 
-1074..NET DotNetGuard v1.2 - http://github.com/Modify24x7/DotNetGuard ( Detect : KoiVM virtualize or STD Mode )
-1075.WARN : .NET Anti-Decompiler Trick RVA-13, FakeObfuscationAttributes
-1076.Autoit3 [ v3.3.15.3 ] Jonathan Bennett & AutoIt Team ( 2020.05 ) - ww.autoitscript.com - exe stub : Microsoft Visual C++ v.14 
-1077.WinPE Commander v.2012.01.xx ( PECMD.EXE ) - stub : Microsoft Visual C++ ver. 7.1
-1078.WinPE Commander v.2012.01.xx ( PECMD.EXE chn ) - packed stub : MPRESS v2.1x - www.matcode.com
-1079.Babel v9.3.3.1  .NET Obfuscator - www.babelfor.net - Stub : MS Visual C# / Basic.NET  ( only 32 bit x64 not detect )
 
 
 

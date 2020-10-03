@@ -18,7 +18,9 @@ Version      : 0.0.6.2 Final - 2020  ( 1083 + 97 signatures x64 )
              : external signatures : userdb.txt : 4432
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
+
 WWW          : http://www.exeinfo.xn.pl  /   www.exeinfo.o7.pl
+
 Category     : Exe detector / Data detector / Exe Tools
 Description  : Detect packer / protector / compiler / .NET obfuscator
 Register     : Freeware

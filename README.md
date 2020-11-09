@@ -14,11 +14,11 @@ Binary packed data : rar , zip , iso , img , ...
 
 Program name : Exeinfo Pe
 
-Version      : 0.0.6.2 Final - 2020  ( 1083 + 97 signatures x64 ) 
+Version      : 0.0.6.3 - 2020  ( 1086 + 100 signatures x64 ) 
 
-             : Ext_detector - v5.6.7 ( 567 non exe signatures )
+             : Ext_detector - v5.6.8 ( 568 non exe signatures )
 	     
-             : external signatures : userdb.txt : 4432
+             : external signatures : userdb.txt : 4433
 	     
 Author	     : A.S.L Soft
 

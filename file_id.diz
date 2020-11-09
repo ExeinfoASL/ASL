@@ -1,13 +1,12 @@
-
 ------------------------------------------------------------------
 
 Program name : Exeinfo Pe
-Version      : 0.0.6.2 Final - 2020  ( 1083 + 97 signatures x64 ) 
-             : Ext_detector - v5.6.7 ( 567 non exe signatures )
-             : external signatures : userdb.txt : 4432
+Version      : 0.0.6.3 Final - 2020  ( 1086 + 100 signatures x64 ) 
+             : Ext_detector - v5.6.8 ( 568 non exe signatures )
+             : external signatures : userdb.txt : 4433
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
-WWW          : http://www.exeinfo.xn.pl  /   www.exeinfo.o7.pl
+WWW          : http://www.exeinfo.xn.pl  mirror :  www.exeinfo.o7.pl
 Category     : Exe detector / Data detector / Exe Tools
 Description  : Detect packer / protector / compiler / .NET obfuscator
 Register     : Freeware
@@ -24,15 +23,13 @@ Requirements : min. 486, 666MHz
 ------------------------------------------------------------------
 
 
- info : many GUI changes and updates old signatures !
-        ( added Sort columns , Multiscan 2xClick - User directory , 
-        Support for MediaInfo Lite from K-lite codec pack ... )
-        Added Pre-Scan Button on Sections GUI ! ,
-        This version scan files faster !!!
-
-
-
-
+ info : many changes and updates old signatures
+        - Fast scan on multifiles
+        - This version load and scan one file faster 
+        Section GUI - Pre-Scan Button !
+        fixed VMProtect / Themida-Winlicence detector
+        Shell support : Die v.3.0
+        and more ...
 
 
 

@@ -6,7 +6,7 @@ Detect packer , compiler , protector , .NET obfuscator
 
 or
 
-Binary packed data : rar , zip , iso , img , ...
+Binary packed data : rar , zip , iso , 7zip , zx , sqz , lz4 , img , ...
 
 
 

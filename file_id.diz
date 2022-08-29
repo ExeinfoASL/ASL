@@ -1,12 +1,10 @@
-		
-		Do not Distribute only for test
 
 ------------------------------------------------------------------
 
 Program name : Exeinfo Pe
-Version      : 0.0.6.9 - 2022 ( 1118 + 127 signatures x64 ) 
-             : Ext_detector - v6.4.4 ( 644 non exe signatures )
-             : external signatures : userdb.txt : 4446
+Version      : 0.0.7.2 - 2022 ( 1126 + 136 signatures x64 ) 
+             : Ext_detector - v6.6.5 ( 665 non exe signatures )
+             : external signatures : userdb.txt : 4447
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
 WWW          : http://www.exeinfo.xn.pl  /   www.exeinfo.o7.pl
@@ -25,61 +23,10 @@ Requirements : min. 486, 666MHz
 
 ------------------------------------------------------------------
 
+	version is not compatible with Arabic Windows 10
 
-info : many changes , internal skin changed
-       About www links changed
-       Buffer for exe file = 300 MB
+	A.S.L
 
-added .xls - MS Strong Crypted detector
-added .msi encrypted Strong
-added .avif picture in mp4 container
-.PDF crypro detector fixed
-.JPG ripper progress 32bit fixed
-
-NET GUI added - copy to clip , hints
-
-added PreScan : [ SmartAssembly PACK ]   detect packed data x64 and x86  if packed data used !
-                Windows 11 installer section .boxload
-
-added : linux ELF - GO Programming Language - Compiler v1.x - http://golang.org';
-added : NOT Win EXE - (.) - Mac OS X Mach-O  -  -> GO Programming Language - Compiler v1.x
-
-
-added :
-1108.Agile.NET v6.6.0.12 - NET protector - www.secureteam.net  - stub : .NET compiler
-1109.VMProtect v.3.5.1  2021 [ Exe/DLL , Option : packed / not packed]  - www.vmpsoft.com
-1110.( Nullsoft Install System v3.x ) : NSTD Nsis Stub GNU Binutils compiler
-1111.[ Suspicious Struct ] *** Unknown EXE
-1112.Alienyze Protector v1.4 (x86) - http://alienyze.com
-1113.ElecKey R9 v2.0.9.35  2021 Software Security System [ inj1 / inj2 / scrambleCrypt. only ] www.Sciensoft.com
-1114.used : ElecKey v2.0.9  2021 Software Security System  www.Sciensoft.com - stub : Embarc. Delphi  ( source code compiled )
-1115.DLL for ElecKey v2.0.x Software Security System - stub : Borland C++- const dll file - www.Sciensoft.com
-1116.XOJO compiler v3.1 - v3.x  2021 - www.xojo.com ( sometime : REAL Basic ) - exe stub : Microsoft Visual C++ v.14.0
-1117.for Xojo Compiler - Library ( aka REALBasic plugin )  www.xojo.com  - stub : Microsoft Visual C++ v14.00 DLL
-1118.( Windows 11 installer ! ) Windows Installation Assistant v1.4.x  microsoft.com - stub : MSVC++ 14 NSTD
-
-fixed .NET Babel , .NET VMProtect
-
-added to 066.Zip Sfx Archive  - [ F-Secure Detection Tool - downloader ] 
-
-
-x64 new signatures
-
-5116. x64 ( MS Visual Basic 2005 - .NET ) ILProtector Version 2.0.22.17 - (c) 2021, VgrSoft http://vgrsoft.net  *ACM 
-5117. x64 Spices.Net v5.17 - 5.21.6 2018-2021 ( Obfuscator ) - www.9Rays.Net - stub :.NET
-5118. x64 Agile.NET v6.6.0.12 - NET protector - www.secureteam.net  - stub :  x64 -  .NET
-5119. x64 VMProtect v.3.5.1 2021 [ option : packed / not packed ]  - www.vmpsoft.com
-5120. x64 VMProtect v.3.00 - 3.5.1 [ packed  struct ] - www.vmpsoft.com  , stub :  .NET 64 bit DLL with 0000 Entry Point  , x86 I not detect
-5121. x64 VMProtect v.3.00 - 3.5.1 [ not packed struct ] - www.vmpsoft.com , stub :  .NET 64 bit DLL with 0000 Entry Point , x86 I not detect
-5022. .NET x64 {SmartAssembly} Obfuscator  [ v8.1.0.4892 ]
-5123. x64 DLL - ElecKey v2.0.x Software Security System - stub :  x64 MS C++ v8.x - DLL  microsoft.com (4889 DLL) - const dll file
-5124. x64 for Xojo Compiler - Library (aka REALBasic plugin)  www.xojo.com  - stub :  x64 Microsoft Visual C++ v14.00
-5125. x64 XOJO compiler v3.1 - v3.x  2021 - www.xojo.com ( aka : REAL Basic ) - exe stub : *** x64 Unknown EXE  MSC++ 14.00
-5126. x64 GO Programming Language - Compiler v1.16.12 - 1.17.0 Windows  - http://golang.org 
-
-
-
-A.S.L
 
 
 

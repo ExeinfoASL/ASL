@@ -1,5 +1,5 @@
 # A.S.L
-free windows software
+Free Windows software
 
 
 Detect packer , compiler , protector , .NET obfuscator
@@ -14,9 +14,9 @@ Binary packed data : rar , zip , iso , 7zip , zx , sqz , lz4 , img , ...
 
 Program name : Exeinfo Pe
 
-Version      : 0.0.7.2 - 2022  ( 1126 + 136 signatures x64 ) 
+Version      : 0.0.7.3 - 2022  ( 1134 + 139 signatures x64 ) 
 
-             : Ext_detector - v6.5.5 ( 655 non exe signatures )
+             : Ext_detector - v6.7.1 ( 671 non exe signatures )
 	     
              : external signatures : userdb.txt : 4447
 	     

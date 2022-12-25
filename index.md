@@ -1,8 +1,16 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/ExeinfoASL/ASL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-** Exeinfo PE - under construction **
+
+**Exeinfo PE - under construction**
+
+
+
+` :-) `
+
+`                    `
+
+You can use the [editor on GitHub](https://github.com/ExeinfoASL/ASL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
  **Bold** and _Italic_ and `Code` text
 
@@ -11,5 +19,5 @@ You can use the [editor on GitHub](https://github.com/ExeinfoASL/ASL/edit/gh-pag
 
 ```
 
-A.S.L ( c ) 2023
+                                                    A.S.L ( c ) 2023
 

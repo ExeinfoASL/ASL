@@ -1,19 +1,19 @@
 
-This version is not compatible with Arabic Windows 10
+this version not support : Windows 10 ( Arabic version )
 
 ------------------------------------------------------------------
 
 Program name : Exeinfo Pe
-Version      : 0.0.7.3 - 2022 ( 1134 + 139 signatures x64 ) 
+Version      : 0.0.7.4 - 2022 ( 1141 + 144 signatures x64 ) 
              : Ext_detector - v6.7.1 ( 671 non exe signatures )
-             : external signatures : userdb.txt : 4447
+             : external signatures : userdb.txt : 4450
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
 WWW          : http://www.exeinfo.xn.pl  /   www.exeinfo.o7.pl
 Category     : Exe detector / Data detector / Exe Tools
 Description  : Detect packer / protector / compiler / .NET obfuscator
 Register     : Freeware
-OS           : Windows 7/8/10 x64
+OS           : Windows 7/8/10 x86/x64
 Requirements : min. 486, 666MHz
                min. 1 GB RAM,
                min. 50MB hard drive space
@@ -25,18 +25,26 @@ Requirements : min. 486, 666MHz
 
 ------------------------------------------------------------------
 
- - added x64 only if EP=0000 .NET Reactor 6.x - www.eziriz.com
- - added on 32 bit .NET
- - [ WARNING : .NET Reactor ? AntiDebug option detected* ] 
- - .NET Reactor v.6.8.0.0 Native Method (.NET / MS C++ stub 9.0 ) - EZIRIZ - www.eziriz.com
- - detect flipped zip files
 
-  and other
+-  Strong update version , fixed old detection !
+-  DLL Characteristics GUI updated
+-  .NET exe diagnose many changes
 
 
 
 
-		 A.S.L ( c ) 2022
+
+			(c) A.S.L
+
+
+
+
+
+
+
+
+
+
 
 
 

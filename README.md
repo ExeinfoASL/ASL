@@ -14,11 +14,11 @@ Binary packed data : rar , zip , iso , 7zip , zx , sqz , lz4 , img , ...
 
 Program name : Exeinfo Pe
 
-Version      : 0.0.7.3 - 2022  ( 1134 + 139 signatures x64 ) 
+Version      : 0.0.7.4 - 2022  ( 1141 + 144 signatures x64 ) 
 
              : Ext_detector - v6.7.1 ( 671 non exe signatures )
 	     
-             : external signatures : userdb.txt : 4447
+             : external signatures : userdb.txt : 4450
 	     
 Author	     : A.S.L Soft
 
@@ -57,7 +57,9 @@ Requirements : min. 486, 666MHz
 
         signatures update
 
+-  Strong update version , fixed old detection !
+-  DLL Characteristics GUI updated
+-  .NET exe diagnose many changes
 
-       ![obraz](https://user-images.githubusercontent.com/58791357/208998228-bdcc8e6b-db80-4faf-bdbb-121693f632ab.png)
 
 

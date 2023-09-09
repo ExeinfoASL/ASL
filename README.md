@@ -14,11 +14,11 @@ Binary packed data : rar , zip , iso , 7zip , zx , sqz , lz4 , img , ...
 
 Program name : Exeinfo Pe
 
-Version      : 0.0.7.7 - 2023  ( 1156 + 157 signatures x64 ) 
+Version      : 0.0.8.0 - 2023  ( 1172 + 162 signatures x64 ) Test
 
-             : Ext_detector - v6.8.5 ( 684 non exe signatures )
+             : Ext_detector - v7.1.2 ( 712 non exe signatures )
 	     
-             : external signatures : userdb.txt : 4453
+             : external signatures : userdb.txt : 4455
 	     
 Author	     : A.S.L Soft
 
@@ -53,5 +53,5 @@ Requirements : min. 486, 666MHz
 ------------------------------------------------------------------
 
 
-  info : inside zip
+  info : inside zip file
 

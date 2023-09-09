@@ -1,11 +1,11 @@
 ------------------------------------------------------------------
-			Test version !
+			Test version 
 ------------------------------------------------------------------
 
 Program name : Exeinfo Pe
-Version      : 0.0.7.7 - 2023 ( 1156 + 157 signatures x64 ) 
-             : Ext_detector - v6.8.4 ( 684 non exe signatures )
-             : external signatures : userdb.txt : 4453
+Version      : 0.0.8.0 - 2023 ( 1172 + 162 signatures x64 ) 
+             : Ext_detector - v7.1.2 ( 712 non exe signatures )
+             : external signatures : userdb.txt : 4455
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
 WWW          : http://www.exeinfo.xn.pl  /   www.exeinfo.o7.pl
@@ -25,66 +25,28 @@ Requirements : min. 486, 666MHz
 ------------------------------------------------------------------
 
 
--  Strong update .NET obfuscator x86 / x64 , fixed fake detection !
--  added for test :  x64 ArmDot 2023 v3.0.0 - www.armdot.com ( I have trial version only )
-
-
 IF result is : Generic for DLL : RustemSoft Skater .NET Obfuscator on exe file ,
                you can change this result : 
-               Click on Main form [ < ] Button
-               Exeinfo ignore this detection
-
+               Click on Main form [ < ] Button , Exeinfo ignore this detections
 
 
 - this version not support : Windows 10 ( Arabic version )
 
+- NON exe file format many fixes , mp4 , jpg , pdf, img/EXT2/3/4  Linux extended file system image
+- add size on mp4/avif - file ( MPEG 4 container H.265 ) - [ 2048 x 1536 ]
+- jpg file  added GPS - data detector !
+- added NSIS Installer Nullsoft NSTD detector for GCC compiler
+- fixed result for NSIS exe if file size over 1 GB
+- update C++ MS linker to 14.36  x86/x64
+- Zip ripper fixed 
+- added detector on Linux ELF files for hidden : .SQUASHFS image files
+- x64 - MinGW-w64 GCC: (GNU) version detector fix
+- added New to Compiler detector menu for : GCC GNU v11/MinGW-W64 v4/MSYS v12 - 32/64 compiler
 
-Last signatures :
-
-x86
-
-1138.EasyCode v2.0 x86 + MASM ( std sign no Deb ) - www.easycode.cat
-1139.EasyCode v2.0 x86 + MASM ( Dbg sign ) - www.easycode.cat
-1140.[ WARNING : Tampared - Nullsoft Install System v3.0x ] - not packed stub / v.3.05 
-1141.EuroAssembler ver.20190402  - http://euroassembler.eu    *ACM 
-1142.Standalone EXE Document Locker v1.1 - 2022.11.29 www.4dots-software.com
-1143.ZIP SelfExtractor Maker Setup  v1.11 2022.11 - www.4dots-software.com
-1144.BoxedApp packer v4 2021 (c) Softanics - BozedAppSDK.dll incl. - stub : Delphi/C++/FPC  detect only !
-1145.[ BoxedApp SDK32 - 2018-2021 ] DLL library  - www.boxedapp.com - stub : C++ 12 NSTD EP 
-1146.DeepSea Obfuscator v.x.x - 4.4.4 © 2001-2013 TallApplications - obsolete tool !  - 90% detector
-1147.Generic for DLL : RustemSoft Skater .NET Obfuscator  v.4.8 - 9.9 - 2022  - www.rustemsoft.com ( only if config fast : OFF)
-1148..NET - DNGuard HVM v.2 - 4.20 by ZiYuXuan Studio - 2022.11 - www.dnguard.net - stub : MS Visual C#
-1149.[ DNGuard HVM Runtime - v3.x - 4.x 2022 ] DLL library  - www.dnguard.net - stub : MS C++
-1150.DNGuard v4.x 2022  ( static stub x86/x64 .NET inside )  - www.dnguard.net - stub : Microsoft Visual C++ v.8.0
-1151.Baymax Patch Tools v3.1.0 - 3.x 2023.01 by Nisy/PYG  www.chinapyg.com - stub : Microsoft Visual C++ v.9.00 & UPX Stub
-1152.Metrowerks CodeWarrior C/C++ x86 V2.4 ( MAC OS ) CW Tools 6.0 - obsolete compiler - www.freescale.com *ACM
-1153.Struct 3 : VMProtect v.3.6.0 - 3.7.3 2022 [ Exe , Option : packed ]  - www.vmpsoft.com 
-1154.Yano v1.0.15.0  ntoolbox.bom/yano  2012 obsolete! - stub : MS Visual C# / Basic.NET 
-1155.ArmDot 2023 v3.0.0 - www.armdot.com ( protector/license creator ) - stub : MS Visual C# / Basic.NET
-
-
-x64
-
-5141. x64 MASM , Linker 14.xx - [ DBG_13 sign ] - no www.microsoft  link to masm64 sdk
-5142. x64 MASM , Linker 2.50 POLINK v8 2015 - smorgasbordet.com , no www.microsoft  link to masm64 sdk
-5143. x64 - EuroAssembler ver.20190402  - http://euroassembler.eu    *ACM 
-5144. x64 Microsoft VC++ 14.29 exe [ CPU : AA64 ARMv8 ]
-5145. x64 - SecureUPDATE_Installer ( Wizard or Patch - Delta instaler for patch/update ) - stub : [ Tampared file ] x64 UPX v.3.9-4.0 
-5146. x64 BoxedApp packer v4 2021 www.boxedapp.com - Softanics - BoxedAppSDK.dll incl. - stub : xxxx
-5147. x64 [ BoxedAppSDK64 - 2018-2021 ] DLL library  - www.boxedapp.com - stub : C++ 12 NSTD EP
-5148. x64 - DeepSea Obfuscator v.x - v4.4.4 © 2001-2013 TallApplications  - 96% detector , NO *ACM can detect Fake results ! 
-5149. x64 [ DNGuard HVM Runtime - v4.x 2022 ] DLL library  - www.dnguard.net - stub :  x64 Microsoft Visual C++ v8.x
-5150. x64 .NET - DNGuard HVM v4.20 by ZiYuXuan Studio - 2022.11 - www.dnguard.net - stub :  EP=0000
-5151. x64 DLL from : Microsoft AppStore ( Export : RHBinder__ShimExeMain ) - stub : NSTD MSV C++  built by: PROJECTNREL
-5152. x64 EXE from : Microsoft AppStore ( exe run dll -> RHBinder__ShimExeMain ) - stub : NSTD MSV C++  built by: PROJECTNREL
-5153. x64 Baymax Patch Tools v3.1.0 - 3.x 2023.01 by Nisy/PYG  www.chinapyg.com - stub : Microsoft Visual C++ v.9.00  & UPX Stub
-5154. x64 Microsoft Visual C++ v14.16 - 2017 - DLL ( push rbx , DisableThreadLib.Cs. )
-5155. x64 Yano v1.0.15.0  ntoolbox.bom/yano  2012 obsolete! - stub :  x64 .NET exe file : 00 Entry Point
-5156. x64 ArmDot 2023 v3.0.0 - www.armdot.com ( protector/license creator ) - stub :  x64 .NET DLL with : 00 Entry Point - CPU : AMD64
+  and other detection fixes
 
 
 
-
-		A.S.L ( c ) 2023.01
+		A.S.L ( c ) 2023.07.28
 
 

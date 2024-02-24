@@ -14,9 +14,9 @@ Binary packed data : rar , zip , iso , 7zip , zx , sqz , lz4 , img , ...
 
 Program name : Exeinfo Pe
 
-Version      : 0.0.8.1 I - 2023  ( 1173 + 164 signatures x64 ) 
+Version      : 0.0.8.3 - 2024  ( 1183 + 169 signatures x64 ) 
 
-             : Ext_detector - v7.1.4 ( 714 non exe signatures )
+             : Ext_detector - v7.2.3 ( 723 non exe signatures )
 	     
              : external signatures : userdb.txt : 4455
 	     

@@ -1,10 +1,7 @@
-------------------------------------------------------------------
-			Test version 
-------------------------------------------------------------------
 
-Program name : Exeinfo Pe
-Version      : 0.0.8.1 - 2023 ( 1173 + 164 signatures x64 ) 
-             : Ext_detector - v7.1.4 ( 714 non exe signatures )
+Program name : Exeinfo Pe 
+Version      : 0.0.8.3  ( 1183 + 169 signatures x64 ) 
+             : Ext_detector - v7.2.3 ( 723 non exe signatures )
              : external signatures : userdb.txt : 4455
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
@@ -24,31 +21,26 @@ Requirements : min. 486, 666MHz
 
 ------------------------------------------------------------------
 
+! FIXED !
 
-IF result is : Generic for DLL : RustemSoft Skater .NET Obfuscator on exe file ,
-               you can change this result : 
-               Click on Main form [ < ] Button , Exeinfo ignore this detections
+news - only last version over Alpha III : 
 
-
-update ver.45.5 : 1156.PUP/PUA - Softonic Downloader
-fixed : 
-589.Generic - Free Pascal compiler (MinGW/FPC) familly
-NOT EXE - .vcproj  Visual Studio C++ Project v8.0-9.0
-NOT EXE - .PDF format ( ver.1.6 ) - [ *ENCRYPTED ] 
-5138. x64 NET IntelliLock v.1.5 - 3.0 ( .NET Reactor 6.x ) - for DLL 00 EP
-5088. x64 Java installer v.11-20.0  offline/online 
-673.Sun Java Installer v8.0.x 
-added NOT EXE - .cbproj  Radstudio ( C++ Builder )
-NOT EXE - .Zip Arch. - .msixbundle 
-NOT EXE - .Zip Arch. - .msix/appv 
-Detector for Dos , win 32 , win 64 - UniLink creator
-added : over 100 mb info in zip and rar files
-
-
-  bugs fixed and added
+- fixed VMProtect 3.6
+- Ripper .7z xor FF - fixed , detect crypted 7z v.0.4 in Advanced Installer
+- fixed NOT EXE - .7z  Archive v0.3/4 ( Crypted with : xor FF )
+- fixed 1157.InstallForge Setup v.1.4.2
+- fixed NOT EXE - .jpg picture (.MPO bug if first section Exif )
+- added console mode ( pack / unpack with lzma )
+	Lzma packer :
+	exeinfope.exe FileName /plzma  - pack file with lzma packer ( 7z compatible ) 
+	Lzma unpacker :
+	exeinfope.exe FileName /ulzma  - unpack file with lzma packer
+- Visual Studio 2022 update linker 14.38
+- Buffer for exe file : 336 MB
+- more
 
 
 
-		A.S.L ( c ) 2023.09.14
+		A.S.L ( c ) 2024.02.11
 
 

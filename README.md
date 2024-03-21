@@ -24,7 +24,7 @@ Author	     : A.S.L Soft
 
 E-Mail       : asl@onet.eu
 
-WWW          : http://www.exeinfo.xn.pl  /   www.exeinfo.o7.pl / https://github.com/ExeinfoASL/ASL
+WWW          : http://www.exeinfo.xn.pl  /   ???.exeinfo.o7.pl / https://github.com/ExeinfoASL/ASL
 
 Category     : Exe detector / Data detector / Exe Tools
 

@@ -32,7 +32,7 @@ Description  : Detect packer / protector / compiler / .NET obfuscator
 
 Register     : Freeware
 
-OS           : Windows XP/2003/7/8/10
+OS           : Windows XP/2003/7/8/10 ( XP only after patch )
 
 Requirements : min. 486, 666MHz
 

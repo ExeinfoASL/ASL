@@ -9,22 +9,23 @@ or
 Binary packed data : rar , zip , iso , 7zip , zx , sqz , lz4 , img , ...
 
 
+included version for Windows XP 
 
 ------------------------------------------------------------------
 
 Program name : Exeinfo Pe
 
-Version      : 0.0.8.3 - 2024  ( 1183 + 169 signatures x64 ) 
+Version      : 0.0.8.4 - 2024  ( 1191 + 173 signatures x64 ) 
 
-             : Ext_detector - v7.2.3 ( 723 non exe signatures )
+             : Ext_detector - v7.2.8 ( 728 non exe signatures )
 	     
-             : external signatures : userdb.txt : 4455
+             : external signatures : userdb.txt : 4457
 	     
 Author	     : A.S.L Soft
 
 E-Mail       : asl@onet.eu
 
-WWW          : http://www.exeinfo.xn.pl  /   ???.exeinfo.o7.pl / https://github.com/ExeinfoASL/ASL
+WWW          : http://www.exeinfo.xn.pl  /  https://github.com/ExeinfoASL/ASL
 
 Category     : Exe detector / Data detector / Exe Tools
 

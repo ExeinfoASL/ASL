@@ -1,15 +1,15 @@
 
 Program name : Exeinfo Pe 
-Version      : 0.0.8.3  ( 1183 + 169 signatures x64 ) 
-             : Ext_detector - v7.2.3 ( 723 non exe signatures )
-             : external signatures : userdb.txt : 4455
+Version      : 0.0.8.4 ( 1191 + 173 signatures x64 ) 
+             : Ext_detector - v7.2.8 ( 728 non exe signatures )
+             : external signatures : userdb.txt : 4457
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
-WWW          : http://www.exeinfo.xn.pl  /   www.exeinfo.o7.pl
+WWW          : http://www.exeinfo.xn.pl 
 Category     : Exe detector / Data detector / Exe Tools
 Description  : Detect packer / protector / compiler / .NET obfuscator
 Register     : Freeware
-OS           : Windows 7/8/10 x86/x64
+OS           : Windows 7/8/10 x86/x64  ( Windows XP only after patch )
 Requirements : min. 486, 666MHz
                min. 1 GB RAM,
                min. 50MB hard drive space
@@ -21,26 +21,39 @@ Requirements : min. 486, 666MHz
 
 ------------------------------------------------------------------
 
-! FIXED !
-
-news - only last version over Alpha III : 
-
-- fixed VMProtect 3.6
-- Ripper .7z xor FF - fixed , detect crypted 7z v.0.4 in Advanced Installer
-- fixed NOT EXE - .7z  Archive v0.3/4 ( Crypted with : xor FF )
-- fixed 1157.InstallForge Setup v.1.4.2
-- fixed NOT EXE - .jpg picture (.MPO bug if first section Exif )
-- added console mode ( pack / unpack with lzma )
-	Lzma packer :
-	exeinfope.exe FileName /plzma  - pack file with lzma packer ( 7z compatible ) 
-	Lzma unpacker :
-	exeinfope.exe FileName /ulzma  - unpack file with lzma packer
-- Visual Studio 2022 update linker 14.38
-- Buffer for exe file : 336 MB
-- more
+Included version for Windows XP : exeinfope_Win_XP.exe
 
 
+added to Version info : ISInternalVersion  =  27.0.58
+update and detect : v9.0 InstallAware Virtualization
+951. .NET compiler - unknown structure - strange [ Native EntryPoint - NSTD Struct is OK ]  
+fix ver.detector up to 90% (for files over 2 MB ) .NET + dotfuscator - PreEmpire Solutions v1.2 - 7.1
+fix for 2019 ver.1083.Eazfuscator.NET v2019.x
+update to v.2015 8011.*Unknown DLL , A1 00 30 x [ BoxedApp SDK32 - 2021 ] 
+added 988.SSE Setup 10.7 - xx.x ( 7-Zip sfx 
+added NOT EXE - .txt UTF-16 (LE) + Hidden .exe PE file at offset 0040
+added generic : on 8011.,8010.  x64  LLVM compiler : clang version 18.1.2 
+Sections GUI scan added detector : LLVM compiler Clang ver.18.1.1   (MSC++14)
+Disable Warning - if exe Pe Magic=0107  ROM DATA
+detect dll files 5144. x64 Microsoft VC++ 14.29 DLL [ CPU : AA64 ARMv8 ]
+fixed updated : 472.Autoit v3.3.x.x
+fixed : Hamrick Software - VueScan
+update 1123.[ Rust Compiler v1.60.x - 1.77.0 ]
+update and fixed detector 1031.Advanced BAT to EXE Converter [ v.4.61 ] 2017-2024
+fixed 798.Advanced Installer Web/Next [ v.21.5.x ] 2003-2024 - www.caphyon.com 
+update MS linker to 14.39  x86 x64
+Compiler Detector fixed : x86 and x64 MingWin32 Free Pascal / MinGW-w64   
+fixed NOT EXE - .ZIP archive - [ Mode Unknown : 5Fh ] to : NOT EXE - .ZIP archive - [ XZ Compression ] 
+added .NET x86 if sign 080; x64 with zero EP  Warning : NET Streams: 6 ...
+fixed version : 1038.MINGW32 Cygwin family [exe] msys-2.0  GCC: (GNU) [v0.2.0]
+added Visual C# / Basic.NET  - DLL [ VMProtect SDK32 .NET - 2023 ]
 
-		A.S.L ( c ) 2024.02.11
+- much more not tested !
+
+
+
+
+
+		A.S.L ( c ) 2024.04.18
 
 

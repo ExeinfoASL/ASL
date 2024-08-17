@@ -56,3 +56,8 @@ Requirements : min. 486, 666MHz
 
   info : inside zip file
 
+ Do you need updated version ?
+ 
+ donate project : https://paypal.me/exeinfope/10
+ 
+ 

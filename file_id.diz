@@ -1,8 +1,8 @@
 
 Program name : Exeinfo Pe 
-Version      : 0.0.8.6 ( 1201 + 177 signatures x64 ) 
-             : Ext_detector - v7.3.5 ( 735 non exe signatures )
-             : external signatures : userdb.txt : 4460
+Version      : 0.0.8.8 ( 1209 + 181 signatures x64 ) 
+             : Ext_detector - v7.4.7 ( 747 non exe signatures )
+             : external signatures : userdb.txt : 4462
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
 WWW          : http://www.exeinfo.xn.pl 
@@ -21,27 +21,38 @@ Requirements : min. 486, 666MHz
 
 ------------------------------------------------------------------
 
-for Windows XP  : run exeinfope_Win_XP.exe !
 
-many changes , signatures updated , and few hidden options
+added .NET GUI auto click on .NET 4 / 6 detector
+added .PYD x86 v2.x 3.x / x64 v3.x version detector
+fixed  cpu version detector added
+added [ generic  - CPU : 0x01C4  ARMv7 ] for : GO Programming Language Compiler
+added x86 only : [ plugin : Photoshop plugin ]
+fix 5005. x64 Microsoft Visual C++ v14.20 - 2008 [ RT_CODE ] - DLL
+added to .pdb - NOT EXE - .IDB  Microsoft Developer intermediate
+added .zlib ripper fixed - Zlib - false Alarm - skipped  ( now ripp more files ) - fixed for Android backup : fullbackup.ab 
+added .zlib added ripper for zlib v2 - if Fast scan off option in Config  (example : installer LLC SysDev Laboratories )
+added detector NOT EXE - .zlib v2 files
+added dll detector - XerinVM.Runtime v1.0 2024
+small fixed XerinFuscator v1.0 - 3.0 , XFUSCATOR 1.0.0.4
+added  x64 [ NSTD section packed data/vmp ] - stub :  x64 Microsoft Visual C++ v14.28
+fixed added h265 - NOT EXE - .mp4/m4v ( MPEG-4 )
+Buffor for exe set to : 380 MB
+overlay - scan deeper for 7zip , zip , ect...
+fixed x64 VMProtect
+fixed MS C++ detector for VMProtect SDK used  x86/x64
+Header GUI - added DBG string text label
+added runtime detector for x86/x64 - [ dotNet Protector Runtime PvLog ]
+added [ VMProtect SDK used ]  Borland Delphi 2009-2010 - borland.com
+added .NET GUI BSJB button
 
-fixed : 1199.XerinFuscator v.1.0.0
-
-NET_GUI changed visible
-
-added support for 5,6 NET Streams - view streams enabled ( Bug fixed )
-
-added detector zip sfx : Beijing JJJsafe Technology - unpack problem Xpack mode
-
-added better password detector for .7z files AES and AES*
-
-added to .7z archives ZS compressions detector - not supported with std 7zip Archiver
-	( Zstd , Liz, LZ5, Brotoli )
+and more
 
 
 
 
-		A.S.L ( c ) 2024.09.02
 
+
+
+		A.S.L ( c ) 2024.12.27
 
 

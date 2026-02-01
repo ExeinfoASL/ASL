@@ -1,7 +1,7 @@
 
 Program name : Exeinfo Pe 
-Version      : 0.0.9.3 Final ( 1226 + 190 signatures x64 ) 
-             : Ext_detector - v7.7.4 ( 774 non exe signatures )
+Version      : 0.0.9.4 ( 1233 + 193 signatures x64 ) 
+             : Ext_detector - v7.7.5 ( 775 non exe signatures )
              : external signatures : userdb.txt : 4467
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
@@ -21,118 +21,27 @@ Requirements : min. 486, 666MHz
 
 ------------------------------------------------------------------
 
+only on this version :
 
-- Inno Unpacker updated to v2.64
-- Detect Embarcadero Delphi / C++ VCL exe files and RAD v12 DevExpress as STD files
-- added on x64 .gz section detector -  x64 Microsoft Visual C++ v14.29 - 2019 - (exe 4883EC28-48) [ .GZ archive sec.6 ]  , 
-- Go compiler detector engine - detect tampared GO string
-- mp4 Ripper fixed via "mp4" string
-- NOT EXE - .gz archive - added "x" key press , unpack file on Main GUI
-- fixed crash bug
-  NOT Win EXE - .dylib - Mac OS X Universal Binary executable
-  to :
-  NOT EXE - .class - Java Bytecode object oriented programming language http://java.sun.com
-- fixed
-  5175. x64 - MinGW-w64 GCC: (GNU) compiler (exe) v11 [ ~ 14.x ]  - http://mingw-w64.sourceforge.net , 
-  to :
-  5175. x64 - MinGW-w64 GCC: (GNU) compiler (exe) v11 [ (MinGW-W64 x86_64-ucrt-posix-seh ...]
+- added because Exeinfo detect VMProtec struct !
+  1231.EXECryptor v.2.1.17 ( TLS prot. obsolete software ) - strongbit.com
 
-- NOT EXE - .aac detector fixed
-- changed .pdb function - support unicode string  , 
-- fixed detection : 5004. x64 DLL with : 00 Entry Point - RESOURCES Only : xx,x KB no CODE  - CPU : AMD64  
-- MS VC++ linker 14.44 updated to 2025
+- Compilators GUI - fixed on GCC 32/64  ver.detector string
 
-- for Windows XP - added x86 7z v22.09 ( ZS/LIZ mode not supported only on Windows 10 )
-  *fixed resources for XP
+- Section GUI adde Xerinfuscator detector
 
-- added "x" on main GUI for unpacking .zip files
+- Inno unpacker updated to v.2.66.1
 
-- Console mode for zip files :
-	Zip unpacking ( .zip archives )
-	exeinfope.exe FileName /un7zip  - unpack .zip archive ) 
-	for many files ( mask files ) : 
-	exeinfope.exe FileName* /un7zip  - unpack .zip files
+- fixed detector !!!  if digi signed
+  Inno Setup Module 5 SFX - [ v.6.3.0 ] - [ Protected with Inno Protect v1.0 by A.S.L ] 
 
-- updated : GEMPlayer v1.0 protected data - ThunderSoft DRM Protection / Gilisoft Free DRM Protection 
+- added : Dell sfx / HP sfx
 
-- fixed updated 1136.DotFix NiceProtect v6.9 - 7x demo x86
-
-- .NET added to signatures ( Meta nstd struct )  . 080 , 1129
-	 " - [ First Meta Data stream as Confuser/Xfuscator ] "
-
-- update v34 x17 - not detected
-	908.InstallAware for Windows Installer v34.0.6 X17 2025 
-	detect v2025.01
-	x86./ x64 - Ahk2Exe for AutoHotkey [ v1.1.37.02 Ans/Uni 2025 ] - Script to EXE Converter - www.autohotkey.com
-
-- NOT EXE - .bmp detector - fixed !
-- changed :
- 5036. x64 - Embarcadero Technologies Inc. clang version 5.0.2 (f0862325.f3a671d2.38570) (based on LLVM 5.0.2) ( EXE )
- to :
- 5036. x64 - C++ Builder 10.x [ Embarcadero RAD Studio 29.1 - Copyright 2025 Embarcadero Technologies, Inc. ]  
-
-- Fixed .gz Ripper - now detect gzip with [Unknown System} on -> NOT EXE - .pak  Chromium format v5 - Chrome
-
-- added on Linux ELF
-	NOT Win EXE - .o - ELF  [ 64bit obj. - CPU : AMD x86-64 - OS/ABI: unspecified ] 
- -> Compiler : Embarcadero Technologies Inc. clang version 5.0.2 (f0862325.f3a671d2.38570) (based on LLVM 5.0.2)
-
-update 
-655.[ 7-zip SFX stub ] [ v25.01 GUI - GENUINE ] -  stub : Microsoft Visual C++ v.6-9 - Name : 7z SFX.
-
-068. x64 - 7z Sfx GUI 25.01 ZS v1.5.7 - 2025 Tino Reichardt- CPU : AMD x64 , if overlay added 7z
-
-
-added x64 DLL Generic codec unpacker ( lz4/zl5/7z/7za/brotli/lizard/zstd/flzma2 )
-
- x64 Microsoft Visual C++ v14.29 - 2019
-  [ GEN plugin unpacker LZ/Lizard/Lzma ] - Not packed 
-  [ 7z* plugin by Igor Pavlov ]
-
-( 7z unpacker update x64 only - no About GUI info , still 22.01 x86 ! )
-  x64 7za ZS v22.01 unpacker updated to v25.01
-
-fixed get dimensions  - movies from  www.savevid.com
-NOT EXE - .mp4/m4v ( MPEG-4 ) codec : avc1 - H.264 - [  532x924  cmfciso6dsmsmsixdash ]
-
-5063. fixed ver detection
- x64 - MinGW-w64 GCC: (GNU) compiler v.4 exe ( xx C7 ) - [ v4.?.? ]  - http://mingw-w64.sourceforge.net , 
-to :
- x64 - MinGW-w64 GCC: (GNU) compiler v.4 exe ( xx C7 ) -  (x86_64-posix-sjlj-rev0, Built by MinGW-W64 project) 4.8.4  - http://mingw-w64.sourceforge.net , 
-
-fixed overlay detector offset for :  ( save overlay and click on Overlay view ) only for this 657 sign.
-	657.Nullsoft SFX v2.46.2-5 Setup Unicode Installer 
-        sign 630.Generic : Installer Nullsoft PiMP Stub [ v.3.02.1 ]  
-
-fixed 1123.[ Rust Compiler v1.89.0 - www.rust-lang.org ] - stub : MS Visual C++ v.14.44 - 2025 (E8)
-
-sign 
-6000. x64 ( GENERIC ) MinGW-w64 GCC: (GNU) Cygwin Fedora compiler no TLS - http://gcc.gnu.org
-fixed version info 
-6000. x64 ( GENERIC ) MinGW-w64 GCC: (GNU) Cygwin Fedora compiler no TLS - http://gcc.gnu.org - [ GNU compiler v.15.1.0 ]  , 
-
-fixed detector ( x64 unknown file ):
-5144. x64 Microsoft VC++ 14.00 DLL [ CPU : AA64 ARMv8 ]  - [Deb: 02]  [ PE Header can be Rust/LLVM/GCC Mingw compiler ]
-
-fixed NSTD + mingw detect
-1204.Microsoft VC++ 14.00 [ dll -  CPU : ARMv7 ]  - [ Deb : 02  C++ CodeView ]  - [ PE Header be Rust/LLVM/GCC Mingw compiler - 100% mingw ]
-
-fixed ver. if C++ v4 
-595.GCC MINGW-64w compiler for 32/64 bit ( exe ) - http://mingw-w64.sourceforge.net
-to
-595.GCC MINGW-64w compiler for 32/64 bit ( exe ) - http://mingw-w64.sourceforge.net - [ GNU C++ 4.7.2 ] 
+and more sign updated
 
 
 
 
-and more
-
-
-
-
-
-
-
-		A.S.L ( c ) 2025.09.27
+		A.S.L ( c ) 2025.12.12
 
 

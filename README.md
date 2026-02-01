@@ -15,9 +15,9 @@ included version for Windows XP
 
 Program name : Exeinfo Pe
 
-Version      : 0.0.9.3 - 2025  ( 1226 + 190 signatures x64 ) 
+Version      : 0.0.9.4 - 2025  ( 1233 + 193 signatures x64 ) 
 
-             : Ext_detector - v7.7.4 ( 774 non exe signatures )
+             : Ext_detector - v7.7.5 ( 775 non exe signatures )
 	     
              : external signatures : userdb.txt : 4467
 	     

@@ -1,7 +1,7 @@
 
 Program name : Exeinfo Pe 
-Version      : 0.0.9.4 ( 1233 + 193 signatures x64 ) 
-             : Ext_detector - v7.7.5 ( 775 non exe signatures )
+Version      : 0.0.9.5 final ( 1238 + 199 signatures x64 ) 
+             : Ext_detector - v7.8.2 ( 782 non exe signatures )
              : external signatures : userdb.txt : 4467
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
@@ -21,27 +21,18 @@ Requirements : min. 486, 666MHz
 
 ------------------------------------------------------------------
 
-only on this version :
+Added on this version only :
 
-- added because Exeinfo detect VMProtec struct !
-  1231.EXECryptor v.2.1.17 ( TLS prot. obsolete software ) - strongbit.com
 
-- Compilators GUI - fixed on GCC 32/64  ver.detector string
+- Inno unpacker updated to : v.2.67.2 - 18.01.2026
+- old signatures update
 
-- Section GUI adde Xerinfuscator detector
+- version for Windows XP included
 
-- Inno unpacker updated to v.2.66.1
 
-- fixed detector !!!  if digi signed
-  Inno Setup Module 5 SFX - [ v.6.3.0 ] - [ Protected with Inno Protect v1.0 by A.S.L ] 
-
-- added : Dell sfx / HP sfx
-
-and more sign updated
+ and more bugs fixed
 
 
 
-
-		A.S.L ( c ) 2025.12.12
-
+	  A.S.L  ( c )  2026.01.29
 

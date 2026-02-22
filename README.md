@@ -15,9 +15,9 @@ included version for Windows XP
 
 Program name : Exeinfo Pe
 
-Version      : 0.0.9.4 - 2025  ( 1233 + 193 signatures x64 ) 
+Version      : 0.0.9.5 - 2026  ( 1238 + 199 signatures x64 ) 
 
-             : Ext_detector - v7.7.5 ( 775 non exe signatures )
+             : Ext_detector - v7.8.2 ( 782 non exe signatures )
 	     
              : external signatures : userdb.txt : 4467
 	     
@@ -55,6 +55,8 @@ Requirements : min. 486, 666MHz
 
 
   info : inside zip file
+
+  - Inno unpacker updated to : v.2.67.2 - 18.01.2026
 
  Do you need updated version on VIP Area ?
  

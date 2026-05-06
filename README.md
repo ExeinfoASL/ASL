@@ -15,9 +15,9 @@ included version for Windows XP
 
 Program name : Exeinfo Pe
 
-Version      : 0.0.9.5 - 2026  ( 1238 + 199 signatures x64 ) 
+Version      : 0.0.9.7 II - 2026  ( 1247 + 206 signatures x64 ) 
 
-             : Ext_detector - v7.8.2 ( 782 non exe signatures )
+             : Ext_detector - v7.8.3 ( 783 non exe signatures )
 	     
              : external signatures : userdb.txt : 4467
 	     
@@ -33,7 +33,7 @@ Description  : Detect packer / protector / compiler / .NET obfuscator
 
 Register     : Freeware
 
-OS           : Windows XP/2003/7/8/10 ( XP only after patch )
+OS           : Windows XP/2003/7/8/10 ( XP included extra version )
 
 Requirements : min. 486, 666MHz
 
@@ -55,12 +55,18 @@ Requirements : min. 486, 666MHz
 
 
   info : inside zip file
+  
+Added on this version only :
 
-  - Inno unpacker updated to : v.2.67.2 - 18.01.2026
+- Inno unpacker updated to : v.2.67.6
+- old signatures updated 
+- ELF Ripper limit added to 50 MB if set
+- non exe detector updated wav or other files
 
- Do you need updated version on VIP Area ?
+
+ Do you need updated new version on VIP Area ?
  
- Donate project : https://paypal.me/exeinfope/10
+ Try Donate project : https://paypal.me/exeinfope/10
  
  
  

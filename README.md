@@ -15,11 +15,11 @@ included version for Windows XP
 
 Program name : Exeinfo Pe
 
-Version      : 0.0.9.7 II - 2026  ( 1247 + 206 signatures x64 ) 
+Version      : 0.0.9.8 - 2026  ( 1252 + 212 signatures x64 ) 
 
-             : Ext_detector - v7.8.3 ( 783 non exe signatures )
+             : Ext_detector - v7.8.4 ( 784 non exe signatures )
 	     
-             : external signatures : userdb.txt : 4467
+             : external signatures : userdb.txt : 4468
 	     
 Author	     : A.S.L Soft
 
@@ -58,13 +58,8 @@ Requirements : min. 486, 666MHz
   
 Added on this version only :
 
-- Inno unpacker updated to : v.2.67.6
-- old signatures updated 
-- ELF Ripper limit added to 50 MB if set
-- non exe detector updated wav or other files
 
-
- Do you need updated new version on VIP Area ?
+ Do you need Hot new version with new signatures only on VIP Area !
  
  Try Donate project : https://paypal.me/exeinfope/10
  

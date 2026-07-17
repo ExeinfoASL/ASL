@@ -1,15 +1,15 @@
 
 Program name : Exeinfo Pe 
-Version      : 0.0.9.7 II ( 1247 + 206 signatures x64 ) 
-             : Ext_detector - v7.8.3 ( 783 non exe signatures )
-             : external signatures : userdb.txt : 4467
+Version      : 0.0.9.8 ( 1252 + 212 signatures x64 ) 
+             : Ext_detector - v7.8.4 ( 784 non exe signatures )
+             : external signatures : userdb.txt : 4468
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
 WWW          : http://www.exeinfo.xn.pl 
 Category     : Exe detector / Data detector / Exe Tools
 Description  : Detect packer / protector / compiler / .NET obfuscator
 Register     : Freeware
-OS           : Windows 7/8/10 x86/x64  
+OS           : Windows 7/8/10 x86/x64  ( for Windows XP version included )
 Requirements : min. 486, 666MHz
                min. 1 GB RAM,
                min. 50MB hard drive space
@@ -21,19 +21,31 @@ Requirements : min. 486, 666MHz
 
 ------------------------------------------------------------------
 
-Added on this version only :
+Added only on this Version :
 
 
-- Inno unpacker updated to : v.2.67.6
+- Inno unpacker updated to : v.2.67.7
 - old signatures updated 
 - ELF Ripper limit added to 50 MB if set
 - non exe detector updated wav or other files
+- mp4 movies ripper fixed
+- added .a3x ripper Autoit compiled script
+- added [ Debug : 21.R2RM - Ready2Run .NET ]
+- added on Main GUI - press x key - unpack .CAB Microsoft
+- update NON EXE -.dcp new 2025 version detect
+- added to non exe & overlay detector & sections GUI
+  NOT EXE - .exe-ovl - overlay data ( Debug data GCC: MinGW compiler )
+- update ver.detector :  x64 - [ Python core v.3.14.2 GUI  ]  x64 Microsoft Visual C++ v14
+- ASM Guard Detector FIXED for dll files
+- on : NOT Win EXE - .o - ELF  
+ added Delphi compiler detector :
+"Embarcadero Delphi for Android" 
+"Embarcadero Delphi for Android" "Embarcadero Delphi for Android ARM64" 
+"Embarcadero RAD Studio" 
+"Embarcadero RAD Studio" "Embarcadero Technologies Inc. bcc64 version 5.0.2" 
 
 
- Included version for Windows XP
-
-
-		  A.S.L  ( c )  2026.03.29
+		  A.S.L  ( c )  2026.04.25
 
 
 

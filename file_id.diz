@@ -1,7 +1,7 @@
 
 Program name : Exeinfo Pe 
-Version      : 0.0.9.9 II ( 1259 + 213 signatures x64 ) 
-             : Ext_detector - v7.8.5 ( 785 non exe signatures )
+Version      : 0.1.0.0 ( 1259 + 215 signatures x64 ) 
+             : Ext_detector - v7.9.1 ( 791 non exe signatures )
              : external signatures : userdb.txt : 4469
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
@@ -9,7 +9,7 @@ WWW          : http://www.exeinfo.xn.pl
 Category     : Exe detector / Data detector / Exe Tools
 Description  : Detect packer / protector / compiler / .NET obfuscator
 Register     : Freeware
-OS           : Windows 7/8/10 x86/x64  ( ver. for Windows XP included ! )
+OS           : Windows 7/8/10 x86/x64  ( Windows XP ver. included )
 Requirements : min. 486, 666MHz
                min. 1 GB RAM,
                min. 50MB hard drive space
@@ -21,50 +21,21 @@ Requirements : min. 486, 666MHz
 
 ------------------------------------------------------------------
 
-Added only on this Version :
+Added on this version only :
 
 
-- Inno unpacker updated to : v.2.67.11 ( 2026.07.13 )
-- added deep scanning on x64 files
-  [ x64 VMProtect SDK used ]   x64 Microsoft Visual C++ v14.29 - 2019 - (exe 4883EC28-48) - [ Deb : 02  C++ CodeView ]  , 
-
-- add NOT EXE - .iss [ InstallShield Silent ] script txt file
-
-- fixed detector for silence :  ovl scan 200 kb to 700 kb
-  InstallShield 2014-21 Pro Unic. ( ISc - v21.00 - 27.00 / Silent 7.0 ) Flexera Software www.installshield.com
-
-- fixed , more detection
-  x64 *Unknown exe , EP : 48 83 .. , 09 sections  [ Linker 14.00 ] - CPU : AMD x64 
-  to :
-  5195. x64 MSVC / LLVM compiler v.14-21 ( sub rsp,28 ) - MSVC++ linker [ v14.00 - 2015 ]
-- update overlay detector
-  NOT EXE - (.) - ovl - Install Shield 2008-2025 - Setup Stream data files with Unicode names
-  to :
-  NOT EXE - (.) - ovl - Install Shield v.2019-2026 [v4] - Setup Stream data files with Unicode names
-
-- fixed
-  8011. x64 *Unknown DLL , 57 56 53 x  [ Linker 2.46 ] - CPU : AMD x64 [ CRC Set ] Std Compiler section  [ 11 ] sections  - GCC exeHeader 
-  5204.x64 - GCC MSYS2 / mingw32 - v15 (57 56 53) Link: 2.46 ( DLL ) [ (crosstool-NG 1.28.0.23_185f348) 15.2.0 ]  - http://www.msys2.org / http://mingw-w64.sourceforge.net
-
-- detect v.2026 SDK
-  [ VMProtect SDK 32 - www.vmpsoft.com ] MS Visual C++ v.7.10 - DLL (55 8B) - 14.16 - Visual Studio 2017  [ License detecteD ] 
-  [ x64 VMProtect SDK - www.vmpsoft.com ]  x64 Microsoft Visual C++ v14.16 - 2017 - (DLL 4889..24)  [ License detecteD ]
-
-- added VMP SDK tool to delphi / Borland c++
-  002.[ VMProtect SDK used ]  Borland Delphi ( 2.0 - 7.0 ) 1992 - borland.com
-  544.[ VMProtect SDK used ]  Borland C++ 2007 - 2010  - [ Embarcadero RAD Studio ]
-
-- added for exe overlay
-  NOT EXE - .exe-ovl  - Xara installer 7zip / *InstallAware - www.xara.com
-
-- unXor overlay tool for xored exe files -  limit 30 MB changed to 350 MB
-
-
-	and more
+- Inno unpacker updated to : v.2.67.11
+- added VMProtect Static Unpacker if LZMA used - exe is protected but all sections unpacked
+  ( v2.x - 3.x , not work if Delphi compiler used , other unpacking +-70% files )
+- "x" key unpack with upx if on path exist
+- fixed ARMv8 x64 Microsoft VC++ 14.00 
+- fixed VMProtect DLL files
+- old signatures strong updated , new added
+- many changes on diagnose , can generate strange txt results
 
 
 
-		  A.S.L  ( c )  2026.07.20
+		  A.S.L  ( c )  2026.08.20
 
 
 
